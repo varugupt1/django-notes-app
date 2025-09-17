@@ -18,3 +18,4 @@ COPY . /app/backend
 EXPOSE 8000
 #RUN python manage.py migrate
 #RUN python manage.py makemigrations
+CMD ["python", "notes-app.py"]
